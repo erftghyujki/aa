@@ -11,22 +11,22 @@ import { useState } from "react";
 export default function Home() {
   const listImages = [ 
   {
-    src:"/static/hmkdefault.jpg"
+    src:"/aa/static/hmkdefault.jpg"
   },
    {
-    src: "/static/hmk.jpeg"
+    src: "/aa/static/hmk.jpeg"
   }, 
   {
-    src: "/static/hmkboevoi.jpg"
+    src: "/aa/static/hmkboevoi.jpg"
   },
   {
-    src: "/static/hmkdengi.png"
+    src: "/aa/static/hmkdengi.png"
   },
   {
-    src: "/static/hmkzhirnich.jpg"
+    src: "/aa/static/hmkzhirnich.jpg"
   },
   {
-    src: "/static/hmkzloi.jpg"
+    src: "/aa/static/hmkzloi.jpg"
   }
 ];
 const [a, seta]=useState(0)
